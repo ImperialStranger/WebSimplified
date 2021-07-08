@@ -1,0 +1,40 @@
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+}
+
+.tab button {;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+.tab-content {
+  display: none;
+  padding: 6px 12px;
+}
+
+.tab-close-btn {
+  float: right;
+  cursor: pointer;
+  font-size: 28px;
+}
+
+.fade-in-animation {
+-webkit-animation: fadeEffect 1s;
+  animation: fadeEffect 1s;
+}
+
+/* Fade in tabs */
+@-webkit-keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
