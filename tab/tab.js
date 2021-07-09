@@ -11,3 +11,7 @@ function openTab(evt, tabName) {
   document.getElementById(tabName).style.display = "block";
   evt.currentTarget.className += " active";
 }
+
+document.getElementByClassName("tab-close-btn").click(function(){
+  this.parentElement.style.display='none'
+})
