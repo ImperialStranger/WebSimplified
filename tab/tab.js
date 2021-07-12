@@ -11,3 +11,12 @@ function openTab(evt, tabName) {
     document.getElementById(tabName).style.display = "block";
     evt.currentTarget.className += " active";
 }
+
+// function openDefaultTab() {
+//     var dt = document.getElementsByClassName("defaulttab")[0];
+//     var id = dt.id;
+//     console.log(id);
+//     openTab(event, id) }
+
+
+// window.addEventListener("DOMContentLoaded", openDefaultTab)
